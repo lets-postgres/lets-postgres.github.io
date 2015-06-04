@@ -1,0 +1,162 @@
+*  {font-family:Arial;}
+h1 {color:darkmagenta;
+    font-size:34pt;}
+h1.main {color:#993300;
+    font-size:34pt;
+	text-align:center;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+	margin-right: 1em;
+	margin-left: 1em;
+	line-height: 1.5;
+	border-color: #993300;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width:thick;
+	border-bottom-width:thick;
+	border-left-width:0;
+	border-right-width:0;
+	}
+h1.sub {color:#993300;
+    font-size:20pt;
+	text-align:center;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	margin-right: 1em;
+	margin-left: 1em;
+	line-height: 1.5;
+	border-color: #993300;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-width:thick;
+	border-bottom-width:thick;
+	border-left-width:0;
+	border-right-width:0;
+	}
+h2 {border-bottom-color:#993300;
+    border-bottom-width:2px;
+    border-bottom-style:solid;
+		margin-left:0.2em;
+		margin-right:1em;
+   }
+h2.plain{border-bottom-color:#000000;
+	 border-bottom-width:0px;
+	}
+h3 {margin-left:1.3em;
+    border-left-width:7px;
+    border-left-style:solid;
+    border-left-color:#993300;
+    text-indent:6px;
+    }
+h4 {margin-left:1.8em;
+    border-left-width:4px;
+    border-left-style:solid;
+    border-left-color:#993300;
+    text-indent:6px;
+    }
+
+p {
+   margin-left:1em;
+   font-family:Arial;}
+p.main {font-size: 110%;
+	margin-top:2em;
+	margin-bottom:2em;
+	line-height:1.4;
+	font-family:Arial;
+	text-align:center;
+}
+p.sub {font-size: 100%;
+	margin-top:2em;
+	margin-bottom:2em;
+	line-height:1.4;
+	font-family:Arial;
+	text-align:center;
+}
+/* Paragraph for various places */
+p.h2 {	/* after <h2> header */
+   margin-left:1em;
+	 margin-right:1em;
+   font-family:Arial;}
+p.h3 {	/* after <h3> header */
+   margin-left:2em;
+	 margin-right:1em;
+   font-family:Arial;}
+p.h4 {	/* after <h4> header */
+   margin-left:3em;
+	 margin-right:1em;
+   font-family:Arial;}
+p.footnote {font-size:80%;	/* footnote */
+   margin-left:3em;
+   font-family:Arial;}
+/* <plain> --> left margin should be the same as the parent
+p.plain{font-size:90%;
+	margin-left:0em;
+	font-family:Arial;}
+ */
+
+/* List */
+ul.h2 {	/* after <h2> header */
+	margin-left:1em;
+	margin-right:1em;
+}
+ul.h3 {	/* after <h3> header */
+	margin-left:2em;
+	margin-right:2em;
+}
+ul.h3 {	/* after <h3> header */
+	margin-left:3em;
+	margin-right:3em;
+}
+ul.h4 {	/* after <h3> header */
+	margin-left:4em;
+	margin-right:4em;
+}
+p.plain{
+	font-family:Arial;}
+tt {font-family:monospace;}
+p em {
+      font-style:oblique;}
+p bf {
+      font-weight:bolder;}
+p.inner{
+        margin-left:3em}
+p.box {
+       border-width:2px;
+       border-style:solid;
+       padding:5px;}
+p.innerbox {
+       margin-left:2em;
+       border-width:2px;
+       border-style:solid;
+       padding:5px;}
+li {
+    margin-top:4pt;
+    margin-bottom:4pt;}
+li.inner {
+          margin-top:4pt;
+          margin-bottom:4pt;
+          margin-left:1em;
+         }
+.eod {
+	font-family:Arial;
+	margin-right:2em;
+	text-align:right;}
+li tt {
+       font-family:monospace;}
+/*
+ * Old link color
+
+a:link {color:#000000;}
+a:visited {color:#000000;}
+a:hover {color:#CC0033;}
+a:active {color:#CC0033;}
+
+*/
+/* Link color */
+a:link {color: #0000ff;}
+a:visited {color: #0000ff;}
+/*
+a:visited {color: #000080;}
+*/
+a:hover {color: #ff0000;}
+a:active {color: #ff8000;}
