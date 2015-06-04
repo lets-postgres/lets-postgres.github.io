@@ -88,6 +88,8 @@ p.h4 {	/* after <h4> header */
 p.footnote {font-size:80%;	/* footnote */
    margin-left:3em;
    font-family:Arial;}
+p.right {
+	text-align:right;}
 /* <plain> --> left margin should be the same as the parent
 p.plain{font-size:90%;
 	margin-left:0em;
